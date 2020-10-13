@@ -4,17 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "gulp"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gulp-cli": "^2.3.0",
     "imagemin": "^7.0.1",
     "imagemin-pngquant": "^9.0.1"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-imagemin": "^7.1.0"
   }
 }
